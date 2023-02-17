@@ -1,15 +1,12 @@
-/* ==UserScript==
+/* ==UserStyle==
 @name         Upolujebooka Dark Theme
-@namespace    userstyles.world
-@version      230217.4
+@version      230217.5
+@namespace    userstyles.world/user/binarny
 @description  Dark Theme for Upolujebooka.pl
 @author       Binarny
-@icon         https://www.google.com/s2/favicons?sz=64&domain=upolujebooka.pl
-@homepageURL  https://github.com/binarom/upolujebooka-dark-theme
-@supportURL   https://github.com/binarom/upolujebooka-dark-theme/issues
+@license      No license
 @preprocessor stylus
-@license      CC0
-==/UserScript== */
+==/UserStyle== */
 
 @-moz-document domain("upolujebooka.pl") {
 body {
