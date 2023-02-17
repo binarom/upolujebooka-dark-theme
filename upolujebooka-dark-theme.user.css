@@ -12,7 +12,7 @@
 @license      CC0
 ==/UserScript== */
 
-@-moz-document url-prefix("upolujebooka.pl") {
+@-moz-document domain("upolujebooka.pl") {
 body {
     color: #ddd;
     background-color: #333;
