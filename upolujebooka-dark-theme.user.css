@@ -1,644 +1,180 @@
 /* ==UserStyle==
 @name         Upolujebooka Dark Theme
-@version      20230217.20.59
+@version      20230221.16.21
 @namespace    userstyles.world/user/binarny
 @description  Dark Theme for Upolujebooka.pl
 @author       binarny
 @license      CC Zero
 ==/UserStyle== */
-
 @-moz-document domain("upolujebooka.pl") {
-body {
-    color: #ddd;
-    background-color: #333;
-}
-
-main {
-    background-color: #333;
-    color: #ddd;
-}
-
-#ColumnLeft {
-    background-color: #333;
-}
-
-a {
-    color: #ccc;
-}
-a:hover,
-a:focus {
-    color: #eee;
-}
-
-.grey {
-    color: #aaa;
-}
-.blue {
-    color: #66D9EF;
-}
-.red {
-    color: #DC4C64;
-}
-#registerButton {
-    background-color: #DC4C64!important;
-}
-a[style="color: red;"] {
-    color: #DC4C64!important;
-}
-p[style="padding:10px 0px; font-size: 120%; color:red"] {
-    color: #DC4C64!important;
-}
-b[style="color:RED;"] {
-    color: #DC4C64!important;
-}
-div[style="color:red;margin-top:5px;"] {
-    color: #DC4C64!important;
-}
-.green {
-    color: #a1e860;
-}
-span[style="color:green"] {
-    color: #a1e860!important;
-}
-.brown {
-    color: #f08165;
-}
-.orange {
-    color: #E4A11B;
-}
-span[style="color:black"] {
-    color: #ddd!important;
-}
-
-#MainPage .MainPremiereRow .price b,
-.MainBlogerOfferRow .price b {
-    color: #DC4C64;
-}
-
-.alert-warning {
-    background-color: #e9900250;
-}
-
-.breadcrumb a {
-    color: #aaa;
-}
-.breadcrumb a:hover {
-    color: #ddd;
-}
-
-.dlaczegoWarto2 {
-    color: #b0b0b0;
-}
-
-#ConteinerCategory .main H4 {
-    background-color: #1a1a1a;
-    border: 1px solid #2a2a2a;
-}
-
-#Detail .AlertOn a.off {
-    color: #F0C765;
-}
-#Detail .AlertOn a.off:hover {
-    color: #ddd;
-}
-
-#Detail .AlertOff {
-    background-color: #222!important;
-    border: 1px solid #555!important;
-}
-#Detail .AlertOn {
-    border: solid 1px #27643d!important;
-    background-color: #1e2f24!important;
-}
-#Detail .Biblioteczka {
-    background-color: #1a1a1a!important;
-}
-#Detail .block-buy-detail {
-    border: 1px solid #555;
-    background-color: #222;
-}
-#Detail .category a,
-#Detail .publisher a {
-    color: #aaa;
-}
-#Detail .price {
-    color: #F0C765;
-}
-#Detail .PriceHistory a {
-    color: skyblue;
-}
-#Detail .ShowOfferShop .formats .glyphicon {
-    color: lightgreen;
-}
-#Detail .ShowOfferShop .LinkBuy > SPAN {
-    border: 1px solid #ddd;
-    background-color: #333;
-}
-#Detail .ShowOfferShop .LinkBuy > SPAN:hover {
-    background-color: #1a1a1a;
-}
-#Detail span.DescAddBottom {
-    color: #E9FFE9;
-}
-
-#formz-wrapper .form-theme-button {
-    background-color: rgb(67, 172, 106)!important;
-}
-#formz-wrapper .form-theme-input {
-    background-color: rgb(34, 34, 34)!important;
-}
-#formz-wrapper .form-theme-input {
-    color: rgb(221, 221, 221)!important;
-}
-#formz-wrapper .form-theme-text--main {
-    color: #ddd!important;
-}
-
-#header-top1 {
-    background-color: #333!important;
-    color: #ddd;
-}
-#main-form {
-    background: #333;
-}
-
-#MainPage .block {
-    background-color: #333;
-    border: none;
-}
-#MainPage {
-    background-color: #333;
-}
-#MainPage .MainPremiereRow {
-    border-bottom: 1px solid #888;
-}
-
-#OfferListingFull .authors a {
-    color: #bbb;
-}
-#OfferListingFull .boxPrice .price {
-    color: #F0C765;
-}
-#OfferListingFull .item {
-    border: 1px solid #333;
-    background-color: #333;
-}
-#OfferListingFull .OfferDetail:hover {
-    box-shadow: 0 0 15px #444;
-    border-bottom: 1px solid #222;
-}
-
-#send_form_filtr {
-    background-color: #1a1a1a;
-    border: 1px solid #202020;
-}
-
-#signature {
-    color: #ddd;
-}
-
-#wrapper {
-    background: #222222!important;
-}
-#wrapper > .container {
-    background: #222!important;
-}
-
-
-.AnotherInfoDetail .headerTab {
-    color: #ddd;
-    border-bottom: 1px solid #323232;
-    background-color: #222;
-}
-
-.breadcrumb {
-    border: 1px solid #444;
-    background-color: #3a3a3a;
-}
-.breadcrumb-item {
-    color: #F0C765;
-}
-.btn-danger {
-    color: #ffffff !important;
-    background-color: darkred;
-    border-color: #ea2f10;
-}
-.btn-danger:hover {
-    color: #ffffff !important;
-    background-color: #400000;
-    border-color: #410000;
-}
-.btn-default {
-    color: #ddd !important;
-    background-color: #0b3751;
-    border-color: #333;
-}
-.btn-default:hover {
-    color: #F0C765 !important;
-    background-color: #121212;
-    border-color: #555;
-}
-.btn-sort {
-    color: #ddd;
-    background-color: #222;
-}
-.btn-sort:hover {
-    color: #aaa;
-}
-.btn-default:active:hover,
-.btn-default.active:hover,
-.open > .dropdown-toggle.btn-default:hover,
-.btn-default:active:focus,
-.btn-default.active:focus,
-.open > .dropdown-toggle.btn-default:focus,
-.btn-default:active.focus,
-.btn-default.active.focus,
-.open > .dropdown-toggle.btn-default.focus {
-    background-color: #222;
-}
-.btn:hover,
-.btn:focus,
-.btn.focus {
-    color: #ddd;
-}
-
-.container.topContLogo div a img[src="/_visual/_images/layout/logo_upolujebooka.svg"] {
-    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(170deg) brightness(103%) contrast(104%);
-}
-
-.Cykle .row h2,
-.TOP10 h2,
-.NewsOffer h2 {
-    color: #eee !important;
-}
-.Cykle .row .txt,
-.TOP10 .txt {
-    border: 1px solid #2a2a2a;
-    background-color: #1a1a1a;
-}
-.Cykle .row .ocena,
-.TOP10 .ocena {
-    color: #DC4C64;
-}
-
-.description-section .titleBook {
-    color: #eee;
-}
-.description-section .authorBook {
-    color: #aaa;
-}
-.description-section .seriesBook {
-    color: #999;
-}
-
-.dropdown-menu > li > a {
-    color: #bbb;
-}
-.dropdown-menu > li > a:hover,
-.dropdown-menu > li > a:focus {
-    color: #ccc;
-    background-color: #0a0a0a;
-}
-.dropdown-menu.fadeIn.animated {
-    background: #222;
-}
-
-.footer,
-.BiblioFiltr {
-    border: 1px solid #333;
-    background-color: #333;
-    color: #ddd;
-    padding: 28px 15px 8px;
-}
-
-.form-control {
-    background-color: #222;
-}
-.form-control:focus {
-    color: #ddd;
-}
-
-.historyprice .row {
-    border-bottom: 1px solid #2a2a2a;
-}
-
-.icoMOBI,
-.icoEPUB,
-.icoPDF,
-.icoMP3 {
-    color: #eee;
-}
-.innecykle a {
-    color: #ddd;
-}
-
-.list-group-item {
-    background-color: #222;
-    border: 1px solid #666;
-}
-.list-group-item.active {
-    background-color: #111;
-}
-
-.MainBloger .description {
-    color: #aaa;
-}
-.MainBloger .profilewww a {
-    color: skyblue;
-}
-.MainBloger .profilewww a:hover {
-    color: turquoise;
-}
-.MainBloger h1 {
-    color: #eee;
-}
-.MainBlogerOfferRow .comment {
-    background-color: #222;
-    border: 1px solid #555;
-}
-.MainBlogerOfferRow .lastblogname {
-    color: #ddd;
-}
-.MainBlogerRow h3 {
-    color: #eee;
-}
-.MainBlogerOfferRow {
-    border-bottom: 1px solid #666;
-}
-
-.man-section {
-    border-bottom: 1px solid #3d3d3d;
-}
-
-.modal-content {
-    background-color: #111;
-}
-.modal .close {
-    color: #ddd;
-}
-
-.nav .open > a,
-.nav .open > a:hover,
-.nav .open > a:focus {
-    background-color: #111;
-}
-.nav > li > a:hover,
-.nav > li > a:focus {
-    background-color: #111;
-    color: #eee;
-}
-.nav-tabs > li > a {
-    background-color: #333!important;
-    color: #ddd;
-}
-.nav-tabs > li.active > a,
-.nav-tabs > li.active > a:hover,
-.nav-tabs > li.active > a:focus,
-.nav-tabs > li > a:hover {
-    color: #ddd!important;
-    background-color: #333!important;
-}
-
-.NewsOffer .block {
-    background-color: #222;
-    border: 1px solid #1a1a1a;
-}
-
-.OfferDetail h3,
-.OfferIMG2 h3 {
-    color: #eee;
-}
-.OfferDetail h3 .types,
-.OfferIMG2 h3 .types {
-    color: #aaa;
-}
-.OfferDetail .description {
-    background-color: #1a1a1a;
-}
-.OfferDetail {
-    border-bottom: 1px solid #888;
-}
-.OfferIMG2 .description {
-    background-color: #1a1a1a;
-}
-.OfferIMG2 .border {
-    border-bottom: 1px solid #888;
-}
-
-.owl-theme .owl-controls .owl-page span {
-    background: #888;
-}
-.owl-theme .owl-controls .owl-buttons div {
-    background: #666;
-}
-
-.pagination .active a {
-    background-color: #444;
-}
-.pagination .active a:hover {
-    background-color: #111;
-}
-.pagination > li > a:hover,
-.pagination > li > span:hover,
-.pagination > li > a:focus,
-.pagination > li > span:focus {
-    background-color: #222;
-}
-.pagination li a:hover {
-    color: #ddd;
-}
-.Partners .popularLogo {
-    border: none;
-}
-
-.PriceLink .Box.On {
-    color: #ddd!important;
-}
-.PriceLink .Box:hover {
-    color: #ddd;
-}
-
-.PromoInfo {
-    background-color: darkred;
-}
-
-.RecommendShop .rowShop {
-    background-color: #222;
-}
-.rowInnPolecane a {
-    border: none;
-}
-.rowInnPolecane a:hover {
-    box-shadow: 0 0 15px #444;
-}
-
-.ShowOfferShop .Partners .border {
-    border: none;
-    background-color: transparent;
-}
-.ShowOfferShop .Points {
-    color: lightgreen;
-    border: 1px solid lightgreen;
-}
-.ShowOfferShop .ShopName {
-    color: #eee;
-}
-.ShowOfferShop TD.price {
-    color: #eee !important;
-}
-
-.solid-menus .bb-2px {
-    color: #ddd;
-}
-.solid-menus .dropdown-menu > li > a:hover {
-    background-color: #2b5390 !important;
-}
-.solid-menus .tabs.side-tabs .tab-nav > li a {
-    background: #333!important;
-    color: #ddd!important;
-}
-.solid-menus .tabs.side-tabs .tab-nav > li.ui-tabs-active a {
-    background: #222!important;
-}
-
-.table-striped > tbody > tr:nth-of-type(2n+1) {
-    background-color: #222;
-}
-.table > thead > tr > th,
-.table > tbody > tr > th,
-.table > tfoot > tr > th,
-.table > thead > tr > td,
-.table > tbody > tr > td,
-.table > tfoot > tr > td {
-    border-top: 1px solid #555;
-}
-
-.typeahead-empty a {
-    color: #ccc !important;
-}
-.typeahead-container.backdrop + .typeahead-backdrop,
-.typeahead-container.filter .typeahead-dropdown,
-.typeahead-container.hint .typeahead-hint,
-.typeahead-container.result .typeahead-list {
-    background: #111 !important;
-}
-.typeahead-container button:focus,
-.typeahead-container button:hover {
-    color: #333;
-    background-color: #aaa;
-}
-.typeahead-container button {
-    background: #222;
-    color: #ddd;
-}
-.typeahead-list > li.typeahead-group.active > a,
-.typeahead-list > li.typeahead-group > a,
-.typeahead-list > li.typeahead-group > a:focus,
-.typeahead-list > li.typeahead-group > a:hover {
-    color: #fff;
-    background-color: #2b5390;
-}
-.typeahead-dropdown > li.active > a,
-.typeahead-dropdown > li > a:focus,
-.typeahead-dropdown > li > a:hover,
-.typeahead-list > li.active > a,
-.typeahead-list > li > a:focus,
-.typeahead-list > li > a:hover {
-    background-color: #222;
-    color: #ddd;
-}
-
-
-a.list-group-item,
-button.list-group-item {
-    color: #ddd;
-}
-a.list-group-item:hover,
-button.list-group-item:hover,
-a.list-group-item:focus,
-button.list-group-item:focus {
-    color: #ddd;
-    background-color: #111;
-}
-
-a[style="font-weight: 700; color:black"] {
-    color: #eee!important;
-}
-a[style="font-weight: 700; color:black"] {
-    color: #eee;
-}
-b[style="color:black"] {
-    color: #eee!important;
-}
-div[style="background-color: #F1F1F1; color:#999; font-weight: 400; padding:20px; text-align: left; margin-top:20px;"] {
-    background-color: #333!important;
-    color: #aaa!important;
-}
-div[style="background-color: #f5f5f5;border-radius: 3px; padding:10px;"] {
-    background-color: #333!important;
-}
-div[style="background-color:#f5f5f5; padding:10px 10px 10px 10px;margin-bottom:10px;border:1px solid #dddddd"] {
-    background-color: #1a1a1a!important;
-    border: 1px solid #555!important;
-}
-div[style="background-color:#F5F5F5;border:1px solid #ccc;padding:5px;margin-top:10px;"] {
-    background-color: #222!important;
-    border: 1px solid #555!important;
-}
-div[style="background-color:white"] {
-    background-color: #333!important;
-}
-div[style="color:#333; padding:20px 0px 10px"] {
-    color: #bbb!important;
-}
-div[style="font-size:120%; margin:20px 0px 0px 0px; padding:10px; background-color:#e2e3e5"] {
-    background-color: #222!important;
-}
-div[style="margin-top:5px;background-color:#F5F5F5; padding:5px;"] {
-    background-color: #222!important;
-}
-div[style="margin-top:5px;background-color:#F5F5F5; padding:5px;margin-bottom:5px"] {
-    background-color: #222!important;
-}
-div[style="margin-top:20px;font-size:80%;background-color:#f9fafc;border: 1px solid #f5f5f5;padding:10px 0px;"] {
-    background-color: #222!important;
-    border: 1px solid #1a1a1a!important;
-}
-div[style="margin-top:5px;background-color:#F5F5F5; padding:5px;margin-bottom:20px"] {
-    background-color: #222!important;
-}
-div[style="padding-bottom:20px;color:#333; line-height:170%"] {
-    color: #ddd!important;
-}
-span[style="color:#666;font-size:9pt"] {
-    color: #eaeaea!important;
-}
-
-/* logowanie */
-div[style="background: white; padding:20px;border-radius: 5px;box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.15);"] {
-    background-color: #333!important;
-}
-span[style="display: block; background-color: white;width:50px;margin-top:-10px;margin-left:auto; margin-right:auto;margin-bottom:20px; "] {
-    background-color: #333!important;
-}
-/* rejestracja */
-div[style="background: white; padding:20px 20px 0px 20px;border-radius: 5px;box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.15);"] {
-    background-color: #333!important;
-}
-
-h4 span.small b {
-    color: #ddd !important;
-}
-
-span.SpanHref img {
-    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(170deg) brightness(103%) contrast(80%);
-}
-span.SpanHref:hover {
-    color: #FCE2A1;
-}
-
-/* Reklamy */
-/* a.BuyCoffe {
-    display: none;
-} */
+body { color: #ddd; background-color: #333; }
+main { background-color: #333; color: #ddd; }
+#ColumnLeft { background-color: #333; }
+a { color: #ccc; }
+a:hover, a:focus { color: #eee; }
+#ConteinerCategory .main H4 { background-color: #1a1a1a; border: 1px solid #2a2a2a; }
+#Detail .AlertOff { background-color: #222!important; border: 1px solid #555!important; }
+#Detail .AlertOn { border: solid 1px #27643d!important; background-color: #1e2f24!important; }
+#Detail .AlertOn a.off { color: #F0C765; }
+#Detail .AlertOn a.off:hover { color: #ddd; }
+#Detail .Biblioteczka { background-color: #1a1a1a!important; }
+#Detail .block-buy-detail { border: 1px solid #555; background-color: #222; }
+#Detail .category a, #Detail .publisher a { color: #aaa; }
+#Detail .price { color: #F0C765; }
+#Detail .PriceHistory a { color: skyblue; }
+#Detail .ShowOfferShop .formats .glyphicon { color: lightgreen; }
+#Detail .ShowOfferShop .LinkBuy > SPAN { border: 1px solid #ddd; background-color: #333; }
+#Detail .ShowOfferShop .LinkBuy > SPAN:hover { background-color: #1a1a1a; }
+#Detail span.DescAddBottom { color: #E9FFE9; }
+#formz-wrapper .form-theme-button { background-color: rgb(67, 172, 106)!important; }
+#formz-wrapper .form-theme-input { background-color: rgb(34, 34, 34)!important; }
+#formz-wrapper .form-theme-input { color: rgb(221, 221, 221)!important; }
+#formz-wrapper .form-theme-text--main { color: #ddd!important; }
+#header-top1 { background-color: #333!important; color: #ddd; }
+#id_user_virtualo { background-color: #222; border: 1px solid #444; }
+#klucz_api_virtualo { background-color: #222; border: 1px solid #444; }
+#main-form { background: #333; }
+#MainPage .block { background-color: #333; border: none; }
+#MainPage .MainPremiereRow .price b, .MainBlogerOfferRow .price b { color: #DC4C64; }
+#MainPage .MainPremiereRow { border-bottom: 1px solid #888; }
+#MainPage { background-color: #333; }
+#OfferListingFull .authors a { color: #bbb; }
+#OfferListingFull .boxPrice .price { color: #F0C765; }
+#OfferListingFull .item { border: 1px solid #333; background-color: #333; }
+#OfferListingFull .OfferDetail:hover { box-shadow: 0 0 15px #444; border-bottom: 1px solid #222; }
+#registerButton { background-color: #DC4C64!important; }
+#send_form_filtr { background-color: #1a1a1a; border: 1px solid #202020; }
+#signature { color: #ddd; }
+#wrapper { background: #222222!important; }
+#wrapper > .container { background: #222!important; }
+.alert-warning { background-color: #734701; }
+.Alert .header { background-color: #333; }
+.Alert .alertEdit { background: #222; border: 1px solid #444; }
+.AnotherInfoDetail .headerTab { color: #ddd; border-bottom: 1px solid #323232; background-color: #222; }
+.blue { color: #66D9EF; }
+.breadcrumb { border: 1px solid #444; background-color: #3a3a3a; }
+.breadcrumb a { color: #aaa; }
+.breadcrumb a:hover { color: #ddd; }
+.breadcrumb-item { color: #F0C765; }
+.brown { color: #f08165; }
+.btn:hover, .btn:focus, .btn.focus { color: #ddd; }
+.btn-danger { background-color: #911E0B; border-color: #791909; }
+.btn-danger:hover { background-color: #631407; border-color: #410D05; }
+.btn-danger:hover { color: #ffffff !important; background-color: #400000; border-color: #410000; }
+.btn-default { color: #ddd !important; background-color: #0b3751; border-color: #333; }
+.btn-default:active:hover, .btn-default.active:hover, .open > .dropdown-toggle.btn-default:hover, .btn-default:active:focus, .btn-default.active:focus, .open > .dropdown-toggle.btn-default:focus, .btn-default:active.focus, .btn-default.active.focus, .open > .dropdown-toggle.btn-default.focus { background-color: #222; }
+.btn-default:hover { color: #F0C765 !important; background-color: #121212; border-color: #555; }
+.btn-info { background-color: #2184A1; border-color: #1C738C; }
+.btn-info:hover { background-color: #186176; border-color: #124858; }
+.btn-sort { color: #ddd; background-color: #222; }
+.btn-sort:hover { color: #aaa; }
+.btn-success { background-color: #225636; border-color: #205233; }
+.btn-success:hover { background-color: #14301F; border-color: #0A180F; }
+.close { color: #ddd; }
+.close:hover { color: #fff; }
+.container.topContLogo div a img[src="/_visual/_images/layout/logo_upolujebooka.svg"] { filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(170deg) brightness(103%) contrast(104%); }
+.Cykle .row .ocena, .TOP10 .ocena { color: #DC4C64; }
+.Cykle .row .txt, .TOP10 .txt { border: 1px solid #2a2a2a; background-color: #1a1a1a; }
+.Cykle .row h2, .TOP10 h2, .NewsOffer h2 { color: #eee !important; }
+.description-section .authorBook { color: #aaa; }
+.description-section .seriesBook { color: #999; }
+.description-section .titleBook { color: #eee; }
+.dlaczegoWarto2 { color: #b0b0b0; }
+.dropdown-menu > li > a { color: #bbb; }
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus { color: #ccc; background-color: #0a0a0a; }
+.dropdown-menu.fadeIn.animated { background: #222; }
+.footer, .BiblioFiltr { border: 1px solid #333; background-color: #333; color: #ddd; padding: 28px 15px 8px; }
+.form-control { background-color: #222; }
+.form-control:focus { color: #ddd; }
+.green { color: #a1e860; }
+.grey { color: #aaa; }
+.historyprice .row { border-bottom: 1px solid #2a2a2a; }
+.icoMOBI, .icoEPUB, .icoPDF, .icoMP3 { color: #eee; }
+.innecykle a { color: #ddd; }
+.list-group-item { background-color: #222; border: 1px solid #666; }
+.list-group-item.active { background-color: #111; }
+.MainBloger .description { color: #aaa; }
+.MainBloger .profilewww a { color: skyblue; }
+.MainBloger .profilewww a:hover { color: turquoise; }
+.MainBloger h1 { color: #eee; }
+.MainBlogerOfferRow .comment { background-color: #222; border: 1px solid #555; }
+.MainBlogerOfferRow .lastblogname { color: #ddd; }
+.MainBlogerOfferRow { border-bottom: 1px solid #666; }
+.MainBlogerRow h3 { color: #eee; }
+.man-section { border-bottom: 1px solid #3d3d3d; }
+.modal .close { color: #ddd; }
+.modal-content { background-color: #111; }
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus { background-color: #111; }
+.nav > li > a:hover, .nav > li > a:focus { background-color: #111; color: #eee; }
+.nav-tabs > li > a { background-color: #333!important; color: #ddd; }
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus, .nav-tabs > li > a:hover { color: #ddd!important; background-color: #333!important; }
+.NewsOffer .block { background-color: #222; border: 1px solid #1a1a1a; }
+.OfferDetail .description { background-color: #1a1a1a; }
+.OfferDetail { border-bottom: 1px solid #888; }
+.OfferDetail h3 .types, .OfferIMG2 h3 .types { color: #aaa; }
+.OfferDetail h3, .OfferIMG2 h3 { color: #eee; }
+.OfferIMG2 .border { border-bottom: 1px solid #888; }
+.OfferIMG2 .description { background-color: #1a1a1a; }
+.orange { color: #E4A11B; }
+.owl-theme .owl-controls .owl-buttons div { background: #666; }
+.owl-theme .owl-controls .owl-page span { background: #888; }
+.pagination .active a { background-color: #444; }
+.pagination .active a:hover { background-color: #111; }
+.pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus { background-color: #222; }
+.pagination li a:hover { color: #ddd; }
+.Partners .popularLogo { border: none; }
+.PriceLink .Box.On { color: #ddd!important; }
+.PriceLink .Box:hover { color: #ddd; }
+.PromoInfo { background-color: darkred; }
+.RecommendShop .rowShop { background-color: #222; }
+.red { color: #DC4C64; }
+.rowInnPolecane a { border: none; }
+.rowInnPolecane a:hover { box-shadow: 0 0 15px #444; }
+.ShowOfferShop .Partners .border { border: none; background-color: transparent; }
+.ShowOfferShop .Points { color: lightgreen; border: 1px solid lightgreen; }
+.ShowOfferShop .ShopName { color: #eee; }
+.ShowOfferShop TD.price { color: #eee !important; }
+.solid-menus .bb-2px { color: #ddd; }
+.solid-menus .dropdown-menu > li > a:hover { background-color: #2b5390 !important; }
+.solid-menus .tabs.side-tabs .tab-nav > li a { background: #333!important; color: #ddd!important; }
+.solid-menus .tabs.side-tabs .tab-nav > li.ui-tabs-active a { background: #222!important; }
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td { border-top: 1px solid #555; }
+.table-striped > tbody > tr:nth-of-type(2n+1) { background-color: #222; }
+.typeahead-container button { background: #222; color: #ddd; }
+.typeahead-container button:focus, .typeahead-container button:hover { color: #333; background-color: #aaa; }
+.typeahead-container.backdrop + .typeahead-backdrop, .typeahead-container.filter .typeahead-dropdown, .typeahead-container.hint .typeahead-hint, .typeahead-container.result .typeahead-list { background: #111 !important; }
+.typeahead-dropdown > li.active > a, .typeahead-dropdown > li > a:focus, .typeahead-dropdown > li > a:hover, .typeahead-list > li.active > a, .typeahead-list > li > a:focus, .typeahead-list > li > a:hover { background-color: #222; color: #ddd; }
+.typeahead-empty a { color: #ccc !important; }
+.typeahead-list > li.typeahead-group.active > a, .typeahead-list > li.typeahead-group > a, .typeahead-list > li.typeahead-group > a:focus, .typeahead-list > li.typeahead-group > a:hover { color: #fff; background-color: #2b5390; }
+a.list-group-item, button.list-group-item { color: #ddd; }
+a.list-group-item:hover, button.list-group-item:hover, a.list-group-item:focus, button.list-group-item:focus { color: #ddd; background-color: #111; }
+a[style="color: red;"] { color: #DC4C64!important; }
+a[style="font-weight: 700; color:black"] { color: #eee!important; }
+a[style="font-weight: 700; color:black"] { color: #eee; }
+b[style="color:black"] { color: #eee!important; }
+b[style="color:RED;"] { color: #DC4C64!important; }
+label[style="color:red"] { color: #DC4C64!important; }
+div[style="background: white; padding:20px 20px 0px 20px;border-radius: 5px;box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.15);"] { background-color: #333!important; }
+div[style="background: white; padding:20px;border-radius: 5px;box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.15);"] { background-color: #333!important; }
+div[style="background-color: #F1F1F1; color:#999; font-weight: 400; padding:20px; text-align: left; margin-top:20px;"] { background-color: #333!important; color: #aaa!important; }
+div[style="background-color: #f5f5f5;border-radius: 3px; padding:10px;"] { background-color: #333!important; }
+div[style="background-color:#f5f5f5; padding:10px 10px 10px 10px;margin-bottom:10px;border:1px solid #dddddd"] { background-color: #1a1a1a!important; border: 1px solid #555!important; }
+div[style="background-color:#F5F5F5;border:1px solid #ccc;padding:5px;margin-top:10px;"] { background-color: #222!important; border: 1px solid #555!important; }
+div[style="background-color:white"] { background-color: #333!important; }
+div[style="color:#333; padding:20px 0px 10px"] { color: #bbb!important; }
+div[style="color:red;margin-top:5px;"] { color: #DC4C64!important; }
+div[style="font-size:120%; margin:20px 0px 0px 0px; padding:10px; background-color:#e2e3e5"] { background-color: #222!important; }
+div[style="margin-top:5px;background-color:#F5F5F5; padding:5px;"] { background-color: #222!important; }
+div[style="margin-top:5px;background-color:#F5F5F5; padding:5px;margin-bottom:5px"] { background-color: #222!important; }
+div[style="margin-top:5px;background-color:#F5F5F5; padding:5px;margin-bottom:20px"] { background-color: #222!important; }
+div[style="margin-top:20px;font-size:80%;background-color:#f9fafc;border: 1px solid #f5f5f5;padding:10px 0px;"] { background-color: #222!important; border: 1px solid #1a1a1a!important; }
+div[style="padding-bottom:20px;color:#333; line-height:170%"] { color: #ddd!important; }
+h4 span.small b { color: #ddd !important; }
+p[style="padding:10px 0px; font-size: 120%; color:red"] { color: #DC4C64!important; }
+span.SpanHref img { filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(170deg) brightness(103%) contrast(80%); }
+span.SpanHref:hover { color: #FCE2A1; }
+span[style="color:#666;font-size:9pt"] { color: #eaeaea!important; }
+span[style="color:black"] { color: #ddd!important; }
+span[style="color:green"] { color: #a1e860!important; }
+span[style="display: block; background-color: white;width:50px;margin-top:-10px;margin-left:auto; margin-right:auto;margin-bottom:20px; "] { background-color: #333!important; }
 }
